@@ -161,6 +161,15 @@ a:focus-visible {
   padding: 1em 0;
 }
 
+.public h1 {
+  text-align: center;
+  color: var(--HEADER-FOOTER);
+}
+
+.login-form {
+  margin: auto;
+}
+
 .public__addr {
   margin-top: 1em;
 }
@@ -234,6 +243,7 @@ a:focus-visible {
   background-color: var(--BGCOLOR);
   padding: 0 0.5em;
   border-bottom: 1px solid var(--BORDER-COLOR);
+  text-align: center;
 }
 
 .dash-header__container {
