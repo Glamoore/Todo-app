@@ -243,7 +243,6 @@ a:focus-visible {
   background-color: var(--BGCOLOR);
   padding: 0 0.5em;
   border-bottom: 1px solid var(--BORDER-COLOR);
-  text-align: center;
 }
 
 .dash-header__container {
@@ -251,6 +250,7 @@ a:focus-visible {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  align-self: center;
 }
 
 .dash-header__nav {
